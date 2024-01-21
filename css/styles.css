@@ -257,8 +257,6 @@ footer {
 #lead-content h4 {
     color:#c5f0c9;
     width: 1000px;
-    margin: 0 auto; 
-    text-align: justify;
 }
 
 #lead-overlay {
@@ -447,7 +445,8 @@ footer {
 .education-block p,.education-block ul {
     margin:0;
     color:#74808a;
-    font-size:0.9em
+    font-size:0.9em;
+    text-align: justify;
 }
 .education-block ul {
     padding:0 0 0 15px
