@@ -31,9 +31,6 @@
                 <a href="#experience">Experience</a>
             </li>
             <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
                 <a href="#projects">Engine Projects</a>
             </li>
             <li>
@@ -43,10 +40,13 @@
                 <a href="#tool_projects">Tool Projects</a>
             </li>
             <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
                 <a href="#skills">Skills</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#skills">Contact</a>
             </li>
         </ul>
     </header>
@@ -72,60 +72,205 @@
         <!-- End #lead-down -->
     </div>
 
+    
+    <div id="experience">
+        <h2 class="heading">Experience</h2>
+
+        <div class="education-block">
+            <h3>Virtuos Studios</h3>
+            <span class="education-date">July 2024 - December 2024</span>
+            <h4>Software Engineer Intern</h4>
+            <ul>
+                <li>
+                    R&D on cloth simulations (for the first month)
+                </li>
+                <li>
+                    Worked on skeletal model and animation importing for an internal tool.
+                </li>
+                <li>
+                    Worked on the engine of a client, a well-known AAA game studio
+                </li>
+                <li>
+                    Integrated an engine-agnostic, Nanite-like technology into the client's engine
+                </li>
+                <li>
+                    Worked on low-level GPU and graphics memory behaviors.
+                </li>
+                <li>
+                    GPU-driven execution techniques.
+                </li>
+                <li>
+                    Geometry management and streaming.
+                </li>
+                <li>
+                    Worked with a team of 3–5 people.
+                </li>                
+            </ul>
+        </div>
+
+        <div class="education-block">
+            <h3>CrossBone Studios</h3>
+            <span class="education-date">Sept 2023 - Oct 2023</span>
+            <h4>Unity Developer Intern</h4>
+            <ul>
+                <li>
+                    Engaged in network programming.
+                </li>
+                <li>
+                    Developed a multiplayer Unity game.
+                </li>
+                <li>
+                    Designed and implemented management mechanics.
+                </li>
+                <li>
+                    Optimized scenes to enhance game performance and user experience.
+                </li>
+            </ul>            
+        </div>
+
+        <div class="education-block">
+            <h3>Sociable Inc</h3>
+            <span class="education-date">Jun 2021 - July 2021</span>
+            <h4>Android Software Intern</h4>
+            <ul>
+                <li>
+                    Gained proficiency in Android Studio, a fundamental tool for Android app development.
+                </li>
+                <li>
+                    Worked extensively with various APIs and integrated them effectively into applications.
+                </li>
+                <li>
+                    Gained experience with databases, including data storage, retrieval, and management.
+                </li>
+                <li>
+                    Explored different software architectures, learning about their design and implementation for robust and efficient software solutions.
+                </li>
+            </ul>            
+        </div>
+    </div>
+
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Engine Projects</h2>
+        
+        <div class="row">
 
         <div class="container">
-            <div class="row">
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Iris.gif" />
-                    </div>
-                    <div class="project-info">
-                        <h3>Iris Graphics Engine (WIP)</h3>
-                        <p>
-                            C++ / Vulkan <br>
-                            3D real-time engine to explore and compare different rendering techniques <br>
-                            The main goal of the engine is to be able to switch between forward/deferred renderers for the same scene, 
-                            you can follow my progress inside the repository. 
-                        </p>
-                        <a href="https://github.com/Tnkln99/Iris-Engine">Source Code</a>
-                        
-                    </div>
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Iris2DNav.gif" />
-                    </div>
-                    <div class="project-info">
-                        <h3>2D Navigation Area</h3>
-                        <p>
-                            <a href="#projects">Iris Engine</a>/ C++ <br>
-                            Developed with the custom-built <a href="#projects">Iris Engine</a>, 
-                            this 2D navigation tool highlights the explored tiles and the paths taken, 
-                            employing diverse pathfinding algorithms. You can see the preview on the left.
-                        </p>
-                        <a href="https://github.com/Tnkln99/Iris-Engine">Source Code</a>
-                    </div>
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Iris3DNav.gif" />
-                    </div>
-                    <div class="project-info">
-                        <h3>3D Navigation Area</h3>
-                        <p>
-                            <a href="#projects">Iris Engine</a>/ C++ <br>
-                            Inspired by the fact that most modern game engines lack built-in 3D navigation and pathfinding capabilities, I decided to develop a tool for my <a href="#projects">Iris Engine</a>.
-                        </p>
-                        <a href="https://github.com/Tnkln99/Iris-Engine">Source Code</a>
-                    </div>
-                </div>   
+            <div class="row">   
                 
+                <div class="project-container">
+
+                    <div class="project shadow-large">
+                        <!-- Original project content -->
+                        <div class="project-image">
+                            <img src="images/ForgottenNomadEngine.gif" />
+                        </div>
+                        <div class="project-info">
+                            <h3>Nomad Engine</h3>
+                            <p>
+                                C++ / OpenGL <br>
+                                3D real-time graphics engine <br>
+                                An engine that's no longer in development. It has a simple actor component system architecture, heavily using C++ templates.
+                                It has unique features like cloth simulations and skeletal animations. If you hover on this section you can see deatilles about these features
+                            </p>
+                            <a href="https://github.com/Tnkln99/NomadEngine">Source Code</a>
+                        </div>
+                    </div>
+
+                    <div class="extra-projects">
+
+
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/Cloth.gif" />
+                            </div>
+                            <div class="project-info">
+                                <h3>GPU Cloth Simulations</h3>
+                                <p>
+                                    C++ <br>
+                                    A simulation of cloth simulated on GPU, engine is capable of parsing the model loaded to understand the cloth parts of it, then it 
+                                    will simulate it using compute shaders. This feuture was developped before working on cloth technologies of Virtuos Technologies.
+                                </p>
+                                <a href="https://github.com/Tnkln99/NomadEngine">Source Code</a>
+                                
+                            </div>
+                        </div>
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/ForgottenNomadEngine.gif" />
+                            </div>
+                            <div class="project-info">
+                                <h3>Skeletal Animations</h3>
+                                <p>
+                                    C++ <br>
+                                    3D real-time animation engine <br>
+                                    Able to load almost all types of models (obj, fbx, md5mesh, dae...) static or skeletal and play animations of a loaded skeletal model.
+                                    On the gif we can see the weights of the vertices that bone "spine_02" affecting.
+                                </p>
+                                <a href="https://github.com/Tnkln99/NomadEngine">Source Code</a>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="project-container">
+                    
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/project.jpg" />
+                        </div>
+                        <div class="project-info">
+                            <h3>SandBox Projects</h3>
+                            <p>
+                                C++ / DirectX12<br>
+                                I am currently working on a project to create a highly modular engine, allowing me to focus on the aspects of real-time engines that
+                                interest me the most. The project will consist of numerous small libraries designed to enhance modularity and streamline iteration. 
+                                This approach aims to facilitate easier iteration as I continue learning and enable me to better concentrate on different components of 
+                                he engine.
+                            </p>
+                            <a href="">Source Code is private at the moment</a>
+                        </div>
+                    </div>
+
+                    <div class="extra-projects">
+
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/project.jpg" />
+                            </div>
+                            <div class="project-info">
+                                <h3>SandBox Graphics</h3>
+                                <p>
+                                    C++ / DirectX12 <br>
+                                    Graphics party of the SandBox Projects, for now only the DirectX12 part is ready, but in the feauture I might want to add other api graphics as I learn, 
+                                    so I am already trying to architecture this libary api agnostic as possible.
+                                </p>
+                                <a href="">Source Code is private at the moment</a>
+                            </div>
+                        </div>
+        
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/project.jpg" />
+                            </div>
+                            <div class="project-info">
+                                <h3>SandBox Renderer</h3>
+                                <p>sbRenderer</p>
+                                <p>
+                                    C++ <br>
+                                    Samples using sbGraphics at the moment, in future it will transform rendering pipeline system of SandBox Projects
+                                </p>
+                                <a href="">Source Code is private at the moment</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/Engine_03.gif" />
@@ -142,55 +287,43 @@
                     </div>
                 </div>
 
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Engine_02.gif" />
-                    </div>
-                    <div class="project-info">
-                        <h3>Engine_02</h3><br/>
-                        <p>
-                            C++ / OpenGL<br/>
-                            3D real-time engine based on actor component architecture <br>
-                            Real-time renderer developed with C++ using OpenGL <br>
-                            Dynamic actor component system where users can add custom components, shadow mapping with multiple lights, material system,
-                            model loading with and without textures and interactable user interface developped with imgui libary (user interface is not finished yet).
-                        </p>
-                        <a href="https://github.com/Tnkln99/Engine_02">Source Code</a>
-                    </div>
-                </div>
+                <div class="project-container">
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Engine02Material.gif" />
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/Engine_02.gif" />
+                        </div>
+                        <div class="project-info">
+                            <h3>Engine_02</h3>
+                            <p>
+                                C++ / OpenGL<br/>
+                                3D real-time engine based on actor component architecture <br>
+                                See <a href="https://github.com/Tnkln99/Engine_02">github page</a> for a better view of the UI<br>
+                                Dynamic actor component system where users can add custom components, shadow mapping with multiple lights, material system,
+                                model loading with and without textures and interactable user interface developped with imgui libary (user interface is not finished yet).
+                            </p>
+                            <a href="https://github.com/Tnkln99/Engine_02">Source Code</a>
+                        </div>
                     </div>
-                    <div class="project-info">
-                        <h3>Material System Engine_02</h3><br/>
-                        <p>
-                            C++ / OpenGL<br/>
-                            Material system that I developed for Engine_02 it facilitates use of all the shaders. You can see the an example of a material I developped using 
-                            tesselation and geometrie shader on this system.
-                        </p>
-                    </div>
-                </div>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/ForgottenNomadEngine.gif" />
-                    </div>
-                    <div class="project-info">
-                        <h3>Nomad Engine</h3>
-                        <p>
-                            C++ / OpenGL <br>
-                            3D real-time animation engine <br>
-                            Able to load almost all types of models (obj, fbx, md5mesh, dae...) static or skeletal and play animations of a loaded skeletal model.
-                            On the gif we can see the weights of the vertices that bone "spine_02" affecting.
-                        </p>
-                        <a href="https://github.com/Tnkln99/NomadEngine">Source Code</a>
-                        
-                    </div>
-                </div>
+                    <div class="extra-projects">
 
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/Engine02Material.gif" />
+                            </div>
+                            <div class="project-info">
+                                <h3>Material System </h3><br/>
+                                <p>
+                                    C++ / OpenGL<br/>
+                                    Material system that I developed for Engine_02 it facilitates use of all the shaders. You can see the an example of a material I developped using 
+                                    tesselation and geometrie shader on this system.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>                
             
                 <div class="project shadow-large">
                     <div class="project-image">
@@ -304,31 +437,6 @@
             <span class="education-date">2018 - 2022</span>
             <h4>Bachelor of Computer Science (Bac+3)</h4>
         </div>
-
-
-        <h2 class="heading">Experience</h2>
-        <div class="education-block">
-            <h3>CrossBone Studios</h3>
-            <span class="education-date">Sept 2023 - Oct 2023</span>
-            <h4>Unity Developer Intern</h4>
-            <p>
-                During my internship at CrossBone Studios from September to October 2023, I engaged in a variety of tasks as a Unity Developer Intern. 
-                My primary responsibilities included network programming and the development of a multiplayer Unity game. I was also involved in designing and implementing management mechanics. 
-                Additionally, a significant part of my role was focused on optimizing scenes to enhance game performance and user experience.
-            </p>
-        </div>
-
-        <div class="education-block">
-            <h3>Sociable Inc</h3>
-            <span class="education-date">Jun 2021 - July 2021</span>
-            <h4>Android Software Intern</h4>
-            <p>
-                My tenure at Sociable Inc as an Android Software Intern from June to July 2021 involved a diverse set of responsibilities and learning experiences. 
-                During this period, I gained proficiency in Android Studio, a fundamental tool for Android app development. I worked extensively with various APIs, 
-                integrating them effectively into our applications. My role also encompassed working with databases, where I learned about data storage, retrieval, and management. 
-                Furthermore, I explored different software architectures, gaining insights into their design and implementation for robust and efficient software solutions.
-            </p>
-        </div>
     </div>
 
         <div id="skills">
@@ -344,8 +452,11 @@
                 <li>SQL</li>
                 <br/>
                 <li>OpenGL</li>
+                <li>DirectX11</li>
+                <li>DirectX12</li>
                 <li>Vulkan</li>
                 <li>Renderdoc</li>
+                <li>Pix</li>
                 <li>Unity</li>
                 <li>Android Studio</li>
                 <li>Unreal</li>
@@ -355,6 +466,8 @@
                 <li>Machine Learning</li>
                 <br/>
                 <li>Git</li>
+                <li>Pv4</li>
+                <li>Svn</li>
                 <li>Wwise</li>
                 <li>Qt</li>
                 <li>Imgui</li>
